@@ -1,0 +1,9 @@
+.git
+.data
+.cache
+__pycache__
+*.pyc
+.streamlit/secrets.toml
+auth.json
+key.txt
+venv

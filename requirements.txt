@@ -1,0 +1,10 @@
+streamlit>=1.50
+numpy
+pandas
+scipy
+openpyxl
+pydantic>=2
+google-genai
+# Query embedding on CPU hosts: fastembed (ONNX, no PyTorch). Must reproduce your corpus vectors; the app verifies this.
+fastembed
+# GPU/Colab or a large host: sentence-transformers instead (used automatically when installed)

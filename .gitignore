@@ -1,0 +1,11 @@
+.data
+.cache
+.streamlit/secrets.toml
+__pycache__/
+*.pyc
+auth.json
+key.txt
+venv/
+corpus/
+emb_cache/
+~$*
